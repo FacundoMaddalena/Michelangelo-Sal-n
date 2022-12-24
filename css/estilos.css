@@ -44,7 +44,9 @@ div .espacio{
     color: rgba(255, 0, 174, 0);
 }
 
-
+li a dropdown-menu{
+  color: rgba(255, 255, 255, 0);
+}
 
 
 
@@ -271,7 +273,7 @@ div .espacio{
 }
 
 .marcas__utilizadas h4{
-    margin: 6%;
+    margin: 9%;
     text-align: center;
     font-size: 2em;
     font-weight: bold;
@@ -298,6 +300,87 @@ div .espacio{
     box-shadow: 0px 10px 10px -3px rgba(0,0,0,0.1);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.maps{
+    border-top: 3px solid #000;
+}
+
+
+
+
+
+.contacto{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../image/footer.jpg);
+    border-top: 3px solid black;
+}
+
+.contacto a{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    text-decoration: none;
+    font-style: normal;
+    align-items: flex-end;
+}
+
+.contacto a i img{
+    width: 2em;
+    margin: 10%;
+    display: flex;
+}
+
+.contacto p{
+    text-align: center;
+    padding-left: 3%;
+    margin-bottom: 1%;
+}
+
+.twitter{
+    color: #2dc0ff;
+}
+
+.instagram{
+    color: #ff7f16;
+}
+
+.youtube{
+    color: #ff0000;
+}
 
 
 
@@ -750,7 +833,7 @@ figure img{
 .header__femminile div a{
     text-decoration: none;
     font-style: normal;
-    color: #4c0ce1;
+    color: #3c00c6;
 }
 
 .femminile{
@@ -761,7 +844,7 @@ figure img{
     background-color: rgba(240, 248, 255, 0.383);
     border-radius: 16px;
     border: 3px solid black;
-    padding-top: 1%;
+    padding-top: 9%;
 }
 
 
