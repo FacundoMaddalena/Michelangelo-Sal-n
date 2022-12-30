@@ -125,7 +125,7 @@
 
     .service{
         figure img{
-            width: 9em;
+            width: 10em;
         }
         .ellas{
             margin: 33% 13%;
@@ -151,8 +151,10 @@
 
     .header__femminile{
         div{
-            grid-area: ellas;
             padding: 3%;
+            a{
+                width: 11em;
+            }
         }
     }
     
@@ -160,8 +162,10 @@
 
     .header__maschile{
         div{
-            grid-area: ellos;
             padding: 3%;
+            a{
+                width: 11em;
+            }
         }
     } 
     

@@ -454,6 +454,7 @@ footer div p a {
   text-decoration: none;
   font-style: normal;
   color: #3c00c6;
+  width: 8em;
 }
 .header__femminile div a .femminile {
   display: flex;
@@ -492,6 +493,7 @@ footer div p a {
   text-decoration: none;
   font-style: normal;
   color: rgb(0, 0, 0);
+  width: 8em;
 }
 .header__maschile div a .maschile {
   display: flex;
@@ -631,7 +633,7 @@ footer div p a {
     font-size: 2em;
   }
   .service figure img {
-    width: 8em;
+    width: 9em;
   }
   .service .ellas {
     margin: 5% 23%;
@@ -644,8 +646,14 @@ footer div p a {
   .header__femminile div {
     padding: 3%;
   }
+  .header__femminile div a {
+    width: 10em;
+  }
   .header__maschile div {
     padding: 3%;
+  }
+  .header__maschile div a {
+    width: 10em;
   }
   .header__gallery div {
     padding: 13%;
@@ -732,7 +740,7 @@ footer div p a {
     font-size: 1.7em;
   }
   .service figure img {
-    width: 9em;
+    width: 10em;
   }
   .service .ellas {
     margin: 33% 13%;
@@ -749,12 +757,16 @@ footer div p a {
     grid-template-areas: "ellos ellos ellas ellas";
   }
   .header__femminile div {
-    grid-area: ellas;
     padding: 3%;
   }
+  .header__femminile div a {
+    width: 11em;
+  }
   .header__maschile div {
-    grid-area: ellos;
     padding: 3%;
+  }
+  .header__maschile div a {
+    width: 11em;
   }
   .contacto a {
     padding: 1.7em;
@@ -780,4 +792,4 @@ footer div p a {
     text-decoration: none;
     color: rgb(255, 217, 0);
   }
-}
+}/*# sourceMappingURL=styles.css.map */
